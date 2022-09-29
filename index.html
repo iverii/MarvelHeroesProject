@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Marvel Fans">
+      <meta name="keywords" content="Marvel Heroes, iron man, thor, wanda, black widow, captain america">
+      <meta name="author" content="Iveri Mamasakhlisovi">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Heroes</title>
+    <link rel="shortcut icon" href="images/titleIcon.png"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/tilt.js" defer></script>
+
+  </head>
+  <body>
+    <div class="spinner-container">
+      <div class="circles">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hamburger-menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+        <span>Close</span>
+      </div>
+      <header class="header">
+        <div class="img-wrapper">
+          <img src="images/bg.jpg" />
+        </div>
+        <div class="banner">
+          <h1>Marvel Heroes Page</h1>
+          <p>The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics. The franchise includes comic books, short films, television series, and digital series.</p>
+          <button>Discover them now</button>
+        </div>
+      </header>
+
+      <section class="sidebar">
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="index.html" class="menu-link" data-content="Home">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="gallery.html" class="menu-link" data-content="Gallery">Gallery</a>
+          </li>
+          <li class="menu-item">
+            <a href="timeline.html" class="menu-link" data-content="Chronology">Chronology</a>
+          </li>
+        </ul>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </section>
+      
+      
+      <section class="hero-section">
+        <div class="section-header">
+          <h1 class="section-heading">Popular Heroes</h1>
+        </div>
+        <div class="cards-wrapper">
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/ironMan.jpg" alt="Iron Man"/>
+            </div>
+            <div class="card-info">
+              <h2>Iron Man</h2>
+              <h3>Tony Stark</h3>
+              <p>
+                "Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics."
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/hulk.jpg" alt="Hulk"/>
+            </div>
+            <div class="card-info">
+              <h2>Hulk</h2>
+              <h3>Bruce Banner</h3>
+              <p>
+                "The Hulk is a fictional superhero appearing in publications by the American publisher Marvel Comics."
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/doctorStrange.jpg" alt="Doctor Strange"/>
+            </div>
+            <div class="card-info">
+              <h2>Doctor Strange</h2>
+              <h3>Sthepan Strange</h3>
+              <p>
+                "Doctor Strange serves as the Sorcerer Supreme, the primary protector of Earth against magical and mystical threats."
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="contact-wrapper">
+          <div class="contact-left"></div>
+          <div class="contact-right">
+            <h1 class="contact-heading">Contact</h1>
+            <form>
+              <div class="input-group">
+                <input type="text" class="field" />
+                <label class="input-label">Full Name</label>
+              </div>
+              <div class="input-group">
+                <input type="email" class="field" />
+                <label class="input-label">Email</label>
+              </div>
+              <div class="input-group">
+                <textarea class="field"></textarea>
+                <label class="message">Message</label>
+              </div>
+              <input type="submit" class="submit-btn" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <p class="copyright">
+            Copyright &copy; 2021, Iveri Mamasakhlisovi
+          </p>
+          <div class="social-list">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </footer>
+      
+    </div>
+  </body>
+</html>
